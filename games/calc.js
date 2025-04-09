@@ -25,7 +25,7 @@ const ask = () => {
       break;
 
     default: rightAns = null;
-    }
+  }
 
   return [answer, rightAns];
 };
