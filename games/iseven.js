@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { gameLogik } from '../src/index.js';
+import gameLogik from '../src/index.js';
 
 const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
