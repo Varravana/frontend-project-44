@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import iseven from '../src/iseven.js';
+import iseven from '../games/iseven.js';
 
 iseven()
 
