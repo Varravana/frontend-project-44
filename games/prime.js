@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import gameLogik from '../src/index.js';
+import gameLogik from '../src/index.js'; 
 
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
