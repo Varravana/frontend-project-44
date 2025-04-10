@@ -11,7 +11,7 @@ const ask = () => {
   const arr = [firstNumber];
 
   for (let i = 1; i < arrLength; i += 1) {
-    arr.push(arr[i - 1] + progressStep)
+    arr.push(arr[i - 1] + progressStep);
   }
 
   const rightAns = arr[randomIndex];

@@ -8,7 +8,7 @@ const isEven = (number) => {
   let result = '';
   if (count === 0) {
     result = 'yes';
-  } else { result = 'no' }
+  } else { result = 'no' };
   return result;
 };
 const ask = () => {

@@ -3,7 +3,7 @@ import cli from './cli.js';
 const gameLogik = (intoo, gameDescription) => {
   const userName = cli();
   console.log(gameDescription);
-  
+
   let counter = 0;
   while (counter < 3) {
     const [answer, rightAns] = intoo();
@@ -17,8 +17,8 @@ const gameLogik = (intoo, gameDescription) => {
     }
   }
   if (counter === 3) {
-    console.log(`Congratulations, ${userName}!`)
-}
+    console.log(`Congratulations, ${userName}!`);
+  }
 };
 
 export default gameLogik;
