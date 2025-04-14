@@ -1,12 +1,12 @@
-import cli from './cli.js';
 import readlineSync from 'readline-sync';
+import cli from './cli.js';
 
 const qwestionLogik = (qwestionData) => {
   const qwestion = readlineSync.question(`Question: ${qwestionData}\nYour answer: `);
   return qwestion;
 };
 
-const randomNum = () => { return Math.round(Math.random() * 100, 0); };
+const randomNum = () => Math.round(Math.random() * 100, 0);
 
 const gameLogik = (roundData, gameDescription) => {
   const userName = cli();
