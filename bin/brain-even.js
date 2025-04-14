@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import iseven from '../games/iseven.js';
+import isevenGame from '../games/isevenGame.js';
 
-iseven();
+isevenGame();
